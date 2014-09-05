@@ -432,5 +432,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="device/samsung/ancora" name="TeamHackDroid/android_device_samsung_ancora" remote="github" revision="aosp" />
+  <project path="vendor/samsung/ancora" name="TeamHackDroid/android_vendor_samsung_ancora" remote="github" revision="cm-11.0"/>
+  <project path="kernel/samsung/msm7x30-common" name="TeamHackDroid/samsung-kernel-msm7x30" remote="github" revision="cm-11.0"/>
 
 </manifest>
